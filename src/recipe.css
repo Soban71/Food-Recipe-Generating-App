@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=Itim&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&family=Source+Code+Pro&family=Unbounded:wght@200;300;400;500;600;800;900&display=swap');
+
+.recipeAdder{
+    border-radius: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #F5F5F5;
+    border: 7px solid #FCA61F;
+    border-radius: 20px;
+    padding: 0px 16px 2rem 16px;
+    align-items: center;
+    box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    width: 29%;
+
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1{
+    font-family: 'Unbounded', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+ p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+ }
+ li{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+ }
+ @media screen and (max-width : 600px){
+    h1{
+        font-size: 16px;
+        text-align: center;
+    }
+ }
